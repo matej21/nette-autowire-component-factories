@@ -1,0 +1,19 @@
+{
+    "name":"matej21/nette-autowire-component-factories",
+    "type":"library",
+    "description":"Lazy-Autowire of properties for Nette PresenterComponents.",
+    "keywords":["nette"],
+    "license":["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors":[
+        {
+            "name":"David Matějka",
+            "homepage":"http://www.matej21.cz"
+        }
+    ],
+    "require":{
+        "nette/nette":"*"
+    },
+    "autoload":{
+        "classmap":["src/"]
+    }
+}
