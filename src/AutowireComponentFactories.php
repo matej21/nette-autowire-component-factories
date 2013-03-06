@@ -17,11 +17,11 @@ trait AutowireComponentFactories
 	 */
 	protected function getServiceLocatorForFactories()
 	{
-		if ($this->serviceLocator === NULL) {
+		if ($this->serviceLocatorForFactories === NULL) {
 			return $this->getPresenter()->getContext(); // fallback
 		}
 
-		return $this->serviceLocator;
+		return $this->serviceLocatorForFactories;
 	}
 
 	/**
